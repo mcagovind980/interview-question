@@ -7,6 +7,8 @@
 </head>
 <body>
     <h4>1.   How will you start a ordered list from 10 ? </h4>
+    <!-- <p>1.   How will you start a ordered list from 10 ? </p> -->
+
 <details><summary>Orderlist</summary>
 
        <ol type="10" start="10">
@@ -220,523 +222,326 @@ Headings
     h3<br>
     h2 <br>
     h1 <br>
-   it priority base h6 has highest priorty font size other content will big 
+   it priority base h1 has highest priorty font size other content will big 
 </details>
 <h4>Difference between block and inline
 
 </h4>
 <details>
     <summary>
-
+block and inline
     </summary>
+    block- it is use for take full width of content<br>
+     it is start new line<br>
+     like &lt; div&gt; 
+     &lt; h1&gt; 
+     &lt; p&gt; 
+
+    inline-its start new line it is not take full width <br>
+    it is also use inside the text <br>
+     like &lt; span&gt; 
+     &lt; a&gt; 
+     &lt; img&gt; 
 </details>
 <h4>Difference between em and strong
 
 </h4>
 <details>
     <summary>
-
+em and strong
     </summary>
+    em- it is use for<em> emphesizing </em>of text <br>
+    it is also use for itelic perpose<br>
+    strong-it is use for bold but for developer atention<br>
+    it is use for urgency <strong>Warning</strong>
 </details>
 <h4>What are attributes?
 
 </h4>
 <details>
     <summary>
-
+attributes
     </summary>
+    attributes- Attributes is use for inside the taxt and it is also talk about extra infromation about emlement
+
 </details>
 <h4>Difference between HTML tags and elements
 
 </h4>
 <details>
     <summary>
-
+Tags and elements
     </summary>
+    Tags-it is use inside the angular brackets &lt; &gt; it is predefine it given by html creater
+    <br>
+    Elements-it is use inside open and close tag &lt;p&gt; Element text &lt;/p&gt; 
 </details>
-<h4>Difference between HTML tags and elements
 
-</h4>
-<details>
-    <summary>
-
-    </summary>
-</details>
 <h4>Explain br tags
 
 </h4>
 <details>
     <summary>
-
+br tags
     </summary>
+    br tags -brack the line it is use start any content new line
+   like - &lt;br&gt; 
 </details>
 <h4>What are semantic tags?
 
 </h4>
 <details>
     <summary>
-
-    </summary>
+semantic tags
+    </summary>semantic tags-
+    it is also known as meaning full tag you can say that understandable for developer 
+    like- &lt;br&gt; -brack the line 
+    &lt;img&gt; for image 
+    &lt;audio&gt;  for audio 
 </details>
 <h4>Write code to create an ordered list with roman numbers</h4>
 <details>
     <summary>
-
+ ordered list with roman numbers
     </summary>
+     ordered list with roman numbers 
+      &lt;ol type="I"&gt;
+      &lt;/ ol &gt;
+     <ol type="I">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+     </ol>
 </details>
 <h4>Write code to create an unordered list with circle</h4>
 <details>
     <summary>
+unordered list with circle
+    </summary>unordered list with circle
 
-    </summary>
+    <ul type="circle">
+    &lt;ul type="circle"&gt;
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+    </ul>
 </details>
 <h4>Write code to create a link to https://www.prepbytes.com</h4>
 <details>
     <summary>
-
-    </summary>
+link to https://www.prepbytes.com
+    </summary>  <a href="https://www.prepbytes.com">&lt;a href="https://www.prepbytes.com"&gt;</a>
 </details>
 <h4>Write a code to insert an image</h4>
 <details>
     <summary>
-
+insert an image
     </summary>
+    &lt;img src=" "&gt;
+
 </details>
 <h4>Write html code to create a 2*2 table : Table columns should be name and salary , and provide two entries for this.</h4>
 <details>
     <summary>
+        create a 2*2 table
+   </summary>
+<table>
+<thead>
+<tr>
+    <th>   Name</th>
+    <th>   Salary</th>
+   
+   
+</tr>
 
-    </summary>
+
+</thead>
+<body>
+    <tr>
+        <td> Govind Kumar</td>
+        <td> 234235</td>
+    
+    </tr>
+</body>
+
+</table>
 </details>
 <h4>Create a form contain input fields like name age email and contact</h4>
 
 <details>
     <summary>
-
+Create a form
     </summary>
+    <form>
+        <label>Name</label>
+        <input type="text" placeholder=" Enter Name">
+        <label>Age</label>
+        <input type="date" placeholder=" Enter Age">
+        <label>Email</label>
+        <input type="email" placeholder=" Enter Email">
+        <label>Contact</label>
+        <input type="number" placeholder=" Enter Contact">
+    </form>
 </details>
 <h4>Create a table and explain how to acheive colspan</h4>
 <details>
     <summary>
-
+colspan
     </summary>
+<table border="3" bgcolor="yellow" >
+    <thead><th colspan="2" >Name </th>
+        <th>subject </th>
+        <th>Age</th>
+        <th>city </th>
+    </thead>
+    <tbody>
+        <tr>
+            <td >Govind</td>
+            <td>maths</td>
+            <td>50</td>
+            <td>delhi</td>
+        
+        
+        </tr>
+    </tbody>
+</table>
 </details>
-<h4>Create radio button (MERN, MEAN : course)and checkbox(HTML, CSS, React, Node : technology) and explain the difference between these two</h4>
+<!-- <h3>HTML Interview Questions and Answers</h3> -->
+<details>
+<summary>Create radio button and checkbox and explain difference</summary>
+Radio Button (one selection):<br>
+&lt;input type="radio" name="course" value="MERN"&gt; MERN<br>
+&lt;input type="radio" name="course" value="MEAN"&gt; MEAN<br><br>
+Checkbox (multiple selection):<br>
+&lt;input type="checkbox" value="HTML"&gt; HTML<br>
+&lt;input type="checkbox" value="CSS"&gt; CSS<br>
+&lt;input type="checkbox" value="React"&gt; React<br>
+&lt;input type="checkbox" value="Node"&gt; Node<br><br>
+Radio button allows only one option in the same group. Checkbox allows multiple options.
+</details>
+
+<details><summary>How many types of heading does HTML contain?</summary>6 headings: &lt;h1&gt; to &lt;h6&gt;.</details>
+<details><summary>Which heading has highest and least priority?</summary>&lt;h1&gt; is highest priority and &lt;h6&gt; is least priority.</details>
+<details><summary>How to create a hyperlink in HTML?</summary>&lt;a href="https://example.com"&gt;Visit&lt;/a&gt;</details>
+<details><summary>Which HTML tag is used to display data in tabular form?</summary>&lt;table&gt;</details>
+<details><summary>Why do we use colgroup tag in table?</summary>To apply styles and attributes to entire columns.</details>
+<details><summary>Common lists used when designing a page</summary>Ordered List (&lt;ol&gt;), Unordered List (&lt;ul&gt;), Definition List (&lt;dl&gt;).</details>
+<details><summary>Structure of definition list</summary>&lt;dl&gt;&lt;dt&gt;Term&lt;/dt&gt;&lt;dd&gt;Definition&lt;/dd&gt;&lt;/dl&gt;</details>
+<details><summary>Meaning of dl, dt and dd</summary>dl = definition list, dt = definition term, dd = definition description.</details>
+<details><summary>Difference between HTML elements and tags</summary>Tags are markup symbols. Element = start tag + content + end tag.</details>
+<details><summary>What is semantic HTML?</summary>Using meaningful tags like &lt;header&gt;, &lt;section&gt;, &lt;article&gt;, &lt;footer&gt;.</details>
+<details><summary>What is an image map?</summary>An image with clickable areas using &lt;map&gt; and &lt;area&gt;.</details>
+<details><summary>How to insert a copyright symbol?</summary>&amp;copy; or &amp;#169;</details>
+<details><summary>How to create a nested webpage in HTML?</summary>Using &lt;iframe&gt;.</details>
+<details><summary>Important iframe attributes</summary>src, width, height, name, title, loading.</details>
+<details><summary>Does a hyperlink only apply to text?</summary>No, it can also be applied to images and other elements.</details>
+<details><summary>What is a style sheet?</summary>A collection of CSS rules used to style HTML.</details>
+<details><summary>Can you create multi-colored text?</summary>Yes, using multiple &lt;span&gt; elements with different colors.</details>
+<details><summary>Is it possible to change the color of the bullet?</summary>Yes, using CSS ::marker.</details>
+<details><summary>Explain the layout of HTML</summary>&lt;header&gt;, &lt;nav&gt;, &lt;main&gt;, &lt;section&gt;, &lt;article&gt;, &lt;aside&gt;, &lt;footer&gt;.</details>
+<details><summary>What is a marquee?</summary>A deprecated tag for scrolling text: &lt;marquee&gt;.</details>
+<details><summary>How to make a background image?</summary>CSS: body { background-image: url('image.jpg'); }</details>
+<details><summary>How many tags can separate text sections?</summary>&lt;br&gt; and &lt;hr&gt; are commonly used.</details>
+<details><summary>What are empty elements?</summary>Elements without closing tags, such as &lt;br&gt;, &lt;img&gt;, &lt;hr&gt;.</details>
+<details><summary>Use of span tag</summary>An inline container for styling part of text.</details>
+<details><summary>Use of iframe tag</summary>Embeds another webpage within the current page.</details>
+<details><summary>What are entities in HTML?</summary>Special character codes like &amp;lt;, &amp;amp;, &amp;copy;.</details>
+<details><summary>Why is a URL encoded in HTML?</summary>To safely represent spaces and special characters.</details>
+<details><summary>Is &lt;!DOCTYPE html&gt; an HTML tag?</summary>No, it is a declaration.</details>
+<details><summary>What is the canvas element in HTML5?</summary>A drawable area for graphics using JavaScript.</details>
+<details><summary>What is SVG?</summary>Scalable Vector Graphics.</details>
+<details><summary>Different new form element types in HTML5</summary>email, url, number, date, color, range, tel, search.</details>
+<details><summary>Need to change browsers to support HTML5?</summary>No, modern browsers already support HTML5.</details>
+<details><summary>Which video formats are supported by HTML5?</summary>MP4, WebM, Ogg.</details>
+<details><summary>Is audio tag supported in HTML5?</summary>Yes, using &lt;audio&gt;.</details>
+<details><summary>Difference between progress and meter</summary>progress shows task completion; meter shows a value within a range.</details>
+<details><summary>Use of figure tag</summary>Groups images, diagrams, code samples, etc.</details>
+<details><summary>Use of figcaption tag</summary>Provides a caption for a &lt;figure&gt;.</details>
+<details><summary>What is button tag?</summary>Creates a clickable button.</details>
+<details><summary>Use of details and summary tag</summary>Creates expandable and collapsible content.</details>
+<details><summary>What is datalist tag?</summary>Provides predefined suggestions for an input field.</details>
+<details><summary>How are tags migrated from HTML4 to HTML5?</summary>Many old presentational tags were deprecated; semantic tags were added.</details>
+<details><summary>If I do not put &lt;!DOCTYPE html&gt;, will HTML5 work?</summary>Usually yes, but browser may enter quirks mode.</details>
+<details><summary>Use of required attribute in HTML5</summary>Makes a form field mandatory.</details>
+<details><summary>New input types for form validation in HTML5</summary>email, url, number, date, tel.</details>
+<details><summary>HTML is case-sensitive or not?</summary>No, HTML is not case-sensitive.</details>
+<details><summary>When are comments used in HTML?</summary>To write notes ignored by the browser: &lt;!-- comment --&gt;.</details>
+<details><summary>What are Attributes and how do you use them?</summary>Extra information in tags, e.g. href, src, class, id.</details>
+<details><summary>Meaning of for attribute in label tag</summary>Connects a label to an input's id.</details>
+<details><summary>Which attributes are required in input tag?</summary>type is commonly required; name is important for form submission.</details>
+<details><summary>What do markup language and hypertext mean?</summary>Markup uses tags to structure content; hypertext links documents.</details>
+<details><summary>How are active links different from normal links?</summary>An active link is currently being clicked (:active).</details>
+<details><summary>What happens if there is no text between tags?</summary>Usually nothing is displayed, but the element still exists.</details>
+<details><summary>What are the limits of text field size?</summary>size controls visible width; maxlength limits characters.</details>
+<details><summary>Relationship between border and rules attributes</summary>Old table attributes: border shows border; rules control internal lines.</details>
+<details><summary>What is Cell Spacing and Cell Padding?</summary>cellspacing = space between cells; cellpadding = space inside cells.</details>
+<details><summary>Difference between HTML and XHTML</summary>XHTML follows stricter XML rules and requires proper closing of tags.</details>
+<details><summary>How many types of CSS can be included in HTML?</summary>3 types: Inline, Internal, External.</details>
+<h4>What are logical and physical tags in HTML</h4>
 <details>
     <summary>
-
+logical and physical tags in HTML
     </summary>
-</details>
-<h4>How many types of heading does an HTML contain?</h4>
-<details>
-    <summary>
-
-    </summary>
-</details>
-<h4>Which heading have highest priority and Least priority.</h4>
-<details>
-    <summary>
-
-    </summary>
-</details>
-<h4>How to create a hyperlink in HTML?</h4>
-<details>
-    <summary>
-
-    </summary>
-</details>
-<h4>Which HTML tag is used to display the data in the tabular form?</h4>
-<details>
-    <summary>
-
-    </summary>
-</details>
-<h4>Why do we use colgroup tag in table tag.</h4>
-<details>
-    <summary>
-
-    </summary>
-</details>
-<h4>What are some common lists that are used when designing a page?
-</h4>
-<details>
-    <summary>
-
-    </summary>
-</details>
-<h4>Write a structure of definition list.</h4>
-<details>
-    <summary>
-
-    </summary>
-</details>
-<h4>What does mean by of dl, dt and dd in definition list.</h4>
-<details>
-    <summary>
-
-    </summary>
-</details>
-<h4>What is the difference between HTML elements and tags?</h4>
-<details>
-    <summary>
-
-    </summary>
-</details>
-<h4>What is semantic HTML?</h4>
-<details>
-    <summary>
-
-    </summary>
-</details>
-<h4>What is an image map?
-
-</h4>
-<details>
-    <summary>
-
-    </summary>
-</details>
-<h4>How to insert a copyright symbol on a browser page?</h4>
-<details>
-    <summary>
-
-    </summary>
-</details>
-<h4>How to create a nested webpage in HTML?
-
-</h4>
-<details>
-    <summary>
-
-    </summary>
-</details>
-<h4>In Iframe Which attributes are more impontant?
-
-</h4>
-<details>
-    <summary>
-
-    </summary>
-</details>
-<h4>Does a hyperlink only apply to text?
-
-
-</h4>
-<details>
-    <summary>
-
-    </summary>
-</details>
-<h4>What is a style sheet</h4>
-<details>
-    <summary>
-
-    </summary>
-</details>
-<h4>Can you create a multi-colored text on a web page?</h4>
-<details>
-    <summary>
-
-    </summary>
-</details>
-<h4>Is it possible to change the color of the bullet?</h4>
-<details>
-    <summary>
-
-    </summary>
-</details>
-<h4>Explain the layout of HTML?
-</h4>
-<details>
-    <summary>
-
-    </summary>
-</details>
-<h4>What is a marquee?</h4>
-<details>
-    <summary>
-
-    </summary>
-</details>
-<h4>How to make a picture of a background image of a web page?
-
-</h4>
-<details>
-    <summary>
-
-    </summary>
-</details>
-<h4>How many tags can be used to separate a section of texts?</h4>
-<details>
-    <summary>
-
-    </summary>
-</details>
-<h4>What are empty elements?</h4>
-<details>
-    <summary>
-
-    </summary>
-</details>
-<h4>What is the use of a span tag? Give one example.
-
-</h4>
-<details>
-    <summary>
-
-    </summary>
-</details>
-<h4>What is the use of an iframe tag?
-
-</h4>
-<details>
-    <summary>
-
-    </summary>
-</details>
-<h4>What are the entities in HTML?
-
-</h4>
-<details>
-    <summary>
-
-    </summary>
-</details>
-<h4>Why is a URL encoded in HTML?
-
-</h4>
-<details>
-    <summary>
-
-    </summary>
-</details>
-<h4>Does a <!DOCTYPE html> tag is a HTML tag?</h4>
-<details>
-    <summary>
-
-    </summary>
-</details>
-<h4>What is the canvas element in HTML5?</h4>
-<details>
-    <summary>
-
-    </summary>
-</details>
-<h4>What is SVG?</h4>
-<details>
-    <summary>
-
-    </summary>
-</details>
-<h4>What are the different new form element types in HTML 5?</h4>
-<details>
-    <summary>
-
-    </summary>
-</details>
-<h4>Is there any need to change the web browsers to support HTML5</h4>
-<details>
-    <summary>
-
-    </summary>
-</details>
-<h4>Which type of video formats are supported by HTML5?</h4>
-<details>
-    <summary>
-
-    </summary>
-</details>
-<h4>Is audio tag supported in HTML 5?
-</h4>
-<details>
-    <summary>
-
-    </summary>
-</details>
-<h4>What is the difference between progress and meter tag?</h4>
-<details>
-    <summary>
-
-    </summary>
-</details>
-<h4>What is the use of figure tag in HTML 5?
-</h4>
-<details>
-    <summary>
-
-    </summary>
-</details>
-<h4>What is the use of figcaption tag in HTML 5?
-</h4>
-<details>
-    <summary>
-
-    </summary>
-</details>
-<h4>What is button tag?</h4>
-<details>
-    <summary>
-
-    </summary>
-</details>
-<h4>What is the use of details and summary tag?</h4>
-<details>
-    <summary>
-
-    </summary>
-</details>
-<h4>What is datalist tag?
-</h4>
-<details>
-    <summary>
-
-    </summary>
-</details>
-<h4>How are tags migrated from HTML4 to HTML5?</h4>
-<details>
-    <summary>
-
-    </summary>
-</details>
-<h4>If I do not put &lt;!DOCTYPE html&gt; will HTML 5 work?
-</h4>
-<details>
-    <summary>
-
-    </summary>
-</details>
-<h4>What is the use of the required attribute in HTML5?</h4>
-<details>
-    <summary>
-
-    </summary>
-</details>
-<h4>What are the new &lt;input&gt; types for form validation in HTML5?</h4>
-<details>
-    <summary>
-
-    </summary>
-</details>
-<h4>HTML is case-sensitive or not?</h4>
-<details>
-    <summary>
-
-    </summary>
-</details>
-<h4>When are comments used in HTML?</h4>
-<details>
-    <summary>
-
-    </summary>
-</details>
-<h4>What are Attributes and how do you use them?</h4>
-<details>
-    <summary>
-
-    </summary>
-</details>
-<h4>What do you mean by for attributes in label tag.</h4>
-<details>
-    <summary>
-
-    </summary>
-</details>
-<h4>How to create a Hyperlink in HTML?</h4>
-<details>
-    <summary>
-
-    </summary>
-</details>
-<h4>Name some common lists that are used when designing a page.</h4>
-<details>
-    <summary>
-
-    </summary>
-</details>
-<h4>Which attributes is required in input tag.</h4>
-<details>
-    <summary>
-
-    </summary>
-</details>
-<h4>What do you mean by MARKUP language and hypertext in HTML?</h4>
-<details>
-    <summary>
-
-    </summary>
-</details>
-<h4>How are active links different from normal links?</h4>
-<details>
-    <summary>
-
-    </summary>
-</details>
-<h4>What happens if there is no text between the tags? Does this affect the display of the HTML file</h4>
-<details>
-    <summary>
-
-    </summary>
-</details>
-<h4>What are the limits of the text field size?</h4>
-<details>
-    <summary>
-
-    </summary>
-</details>
-<h4>What is the relationship between the border and rule attributes?</h4>
-<details>
-    <summary>
-
-    </summary>
-</details>
-<h4>What is Cell Spacing and Cell Padding?</h4>
-<details>
-    <summary>
-
-    </summary>
-</details>
-<h4>What is difference between HTML and XHTML?
-</h4>
-<details>
-    <summary>
-
-    </summary>
-</details>
-<h4>How many types of CSS can be included in HTML?</h4>
-<details>
-    <summary>
-
-    </summary>
-</details>
-<h4>What are logical and physical tags in HTML?</h4>
-<details>
-    <summary>
-
-    </summary>
+Logical tags tell the browser and assistive technologies what the text means.
+
+They focus on meaning, not just appearance.
+
+  &lt;br &gt;
+  &lt;em &gt;
+  &lt;mark &gt;
+  &lt;time&gt;
+  &lt; address  &gt;
+    <br>
+physical-Physical tags specify how text should appear visually.
+
+They focus on appearance, not meaning.<br>
+  &lt;i &gt;
+  &lt;u &gt;
+  &lt;sup&gt;
+  &lt;sub&gt;
+  &lt; s &gt;
 </details>
 <h4>How can you apply JavaScript to a web page?</h4>
 <details>
     <summary>
-
+JavaScript to a web page?
     </summary>
+    JavaScript to a web page- 
+    external file-&lt;script src=" "&gt;<br>
+    internal file-&lt;script &gt; write JavaScript here  always bottom of html and should upper close body  &lt;/script &gt;
 </details>
 <h4>How to make you radio button and check-box. and how to implement this??</h4>
 <details>
     <summary>
-
+ radio button and check-box
     </summary>
+    <label>radio</label>
+    &lt;input type="radio" &gt;  
+    <input type="radio" > <br>
+    &lt;input type="check-box" &gt;  
+    <input type="checkbox" >  
 </details>
 <h4>What is main reason or main advantage of label tag?</h4>
 <details>
     <summary>
-
+ advantage of label 
     </summary>
+     advantage of label  it is use for extra infromation and tell about form <br>
+     The &lt;label&gt; tag is used to provide a text description for form controls <br>like  &lt;input&gt;, &lt;text area&gt;, and &lt;select&gt;
 </details>
 <h4>How will you implement when you click on submit button your whole data comes in URL form?</h4>
 <details>
     <summary>
-
+click on submit button your whole data comes in URL form?
     </summary>
+    &lt;button &gt;  &lt; a href="" &gt; click here  &lt;/a &gt; &lt;/button &gt;
 </details>
 
 
